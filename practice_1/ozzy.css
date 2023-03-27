@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: black;
+    
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-bottom: 53px;
+
+}
+body{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+p{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+ul{
+    
+    font-size: 25px;
+    color: #0000FF;
+    
+}
+li{
+    color:black;
+    margin-left: 65px;
+    
+}
+img{
+    margin-left: 65px;
+}
+
+h2{
+    margin-left: 65px;
+    
+}
+.mainheader {
+    text-size-adjust: 312px;
+    background: size 1310px; 
+    margin-top: 96px;
+    font-size: 50px;
+    
+}
+p{
+    margin-bottom: 53px;
+    font-size: 25px;
+}
