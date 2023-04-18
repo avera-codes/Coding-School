@@ -13,24 +13,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin-top: 112px;
-    margin-left: 70px;
-    margin-right: 70px;
+    padding: 100px 20px;
+    justify-content: center;
 }
 .container1 {
     border: 5px solid #E5E000;
     border-radius: 30px;
     flex-direction: column;  
-    padding: 33px;  
-}
-.container2 {
-    border: 5px solid #E5E000;
-    border-radius: 30px;
-    padding: 33px;     
-}
-.container3 {
-    border: 5px solid #E5E000;
-    border-radius: 30px;  
     padding: 33px;   
 }
 .footer {
@@ -38,7 +27,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-top: 52px;
     color: #FFFFFF;
     font-family: 'Helvetica';
     font-style: normal;
