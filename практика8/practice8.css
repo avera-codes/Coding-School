@@ -22,24 +22,131 @@ header li {
     padding: 34px;
 }
 .page {
-        background-image: url("images/Jaipur Living Genesis Swisher Ges30 Blue - Red Area Rug.jpeg");
+        background-image: url("images/background.jpeg");
         background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 100%;
-}
-body {
-    background-image: url("images/Jaipur Living Genesis Swisher Ges30 Blue - Red Area Rug.jpeg");
-        background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
-img {
-    height: 100%;
-    width: 100%;
+.order-form-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(1, 1, 1);
+    margin: 90px 0 0 90px;
 }
-footer {
+.order-form-field {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 3px solid rgba(255, 98, 0, 0.47);
+    border-radius: 20px;
+    padding: 30px;
+    margin:90px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: bisque;
+}
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;  
+}
+.form-row input {
+    background-color: rgb(234, 148, 36);
+    border: 1px solid rgb(196, 146, 76);
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+}
+.email-field {
+    display: flex;
+    border: 3px solid rgba(255, 98, 0, 0.47);
+    border-radius: 20px;
+    padding: 30px;
+    margin:30px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: bisque;
+    flex-direction: column; /* почему здесь используется column и почему это не работает если у form-row убрать flex-direction:row и justify-content: space-between */
+}
+.newsletter p {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.categories {
+    display: flex;
+    border: 3px solid rgba(255, 98, 0, 0.47);
+    border-radius: 20px;
+    padding: 30px;
+    margin:90px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: bisque;
+
+
+}
+.categories legend {
+    font-size: 25px;
+    color: black;
+}
+.categories fieldset {
+    border: none;
+    display: flex;
+    padding: 30px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 90px;
-    color: rgb(224, 180, 119);
-}
+    background-color: rgb(224, 180, 119);
+    padding: 20px;
+  }
+  @media only screen and (max-width: 320px) {
+    .order-form-field,
+    .email-field,
+    .categories {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .order-form-header {
+      font-size: 18px;
+      margin: 10px;
+    }
+  
+    .form-row input,
+    .email-field input {
+      width: 100%;
+      padding: 3px;
+      font-size: 14px;
+    }
+  }
+  
+ 
